@@ -1,0 +1,1519 @@
+@charset "utf-8";
+
+/* 花びらの中身 */
+@import url("https://dl.dropbox.com/scl/fi/nrg7z4w7jh3nvpazjm39d/.css?rlkey=llajsg9ftpihwavk1eipi0ppm&st=at5oo51b&raw=1");
+
+/* フォント指定の中身 */
+@import url("https://dl.dropbox.com/scl/fi/bmljv4ban1d9dqfaoqy03/.css?rlkey=ebgj3f9wnl90pcb0xrk5trg9c&st=pk4mmkm3&raw=1");
+
+
+/* 差込イラスト（猫A〜z+数字記号、犬A〜z+数字記号） */
+
+cat {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #fffffc;
+  display: flex;
+  justify-content: center;
+}
+
+dog {
+  font-family: 'Dog1';
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+cat1 {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #4DD7E3;
+  display: flex;
+  justify-content: center;
+}
+
+cat2 {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #B9ADB9;
+  display: flex;
+  justify-content: center;
+}
+
+cat3 {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #AC324B;
+  display: flex;
+  justify-content: center;
+}
+
+cat4 {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #FFCB5B;
+  display: flex;
+  justify-content: center;
+}
+
+cat5 {
+  font-family: 'Cat1';
+  font-size: 50px;
+  color: #ABD3D8;
+  display: flex;
+  justify-content: center;
+}
+
+dog1 {
+  font-family: 'Dog1';
+  font-size: 50px;
+  color: #4DD7E3;
+  display: flex;
+  justify-content: center;
+}
+
+dog2 {
+  font-family: 'Dog1';
+  font-size: 50px;
+  color: #B9ADB9;
+  display: flex;
+  justify-content: center;
+}
+
+dog3 {
+  font-family: 'Dog1';
+  font-size: 50px;
+  color: #625DA1;
+  display: flex;
+  justify-content: center;
+}
+
+dog4 {
+  font-family: 'Dog1';
+  font-size: 50px;
+  color: #A590AF;
+  display: flex;
+  justify-content: center;
+}
+
+dog5 {
+  font-family: 'Dog1';
+  font-size: 50px;
+  color: #ACA7BB;
+  display: flex;
+  justify-content: center;
+}
+
+
+Mus {
+  font-family: 'Music';
+  font-size: 15px;
+  color: #000;
+}
+
+Mus2 {
+  font-family: 'Music';
+  font-size: 15px;
+  color: #fff;
+}
+
+C_kid {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #4DD7E3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_kgm {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #B9ADB9;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_ngo {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #625DA1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_ymoi {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #AC324B;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_knmc {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #A590AF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_fsm {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #FFCB5B;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_kzh {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #ACA7BB;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_kne {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #ABD3D8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_nszn {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #3A8FB7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+C_suo {
+  font-family: 'Headline';
+  font-size: 40px;
+  color: #EF8468;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+gift {
+  font-family: 'Gifts';
+  font-size: 35px;
+  color: #000;
+}
+
+heart {
+  font-family: 'letter';
+  font-size: 35px;
+  color: #000;
+}
+
+cookie {
+  font-family: 'Cookie';
+  font-size: 35px;
+  color: #000;
+}
+
+guitar {
+  font-family: 'ぎたー';
+  font-size: 40px;
+  color: #000;
+  display: inline-block;
+  transform: rotate(80deg);
+}
+
+flower {
+  font-family: 'GumiFont';
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* むーちゃんみたいな猫（^ or `） */
+
+neko {
+  font-family: 'ねこ';
+  font-size: 8ex;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ }
+
+neko2 {
+  font-family: 'ねこ';
+  font-size: 8ex;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 10px;
+ }
+
+
+
+/* 全体 */
+
+* {
+  font-family: '851zatsu';
+  font-size: 13px;
+  color: #000;
+  text-decoration: none; 
+  margin: 0;
+}
+
+#container { 
+  color: transparent;
+}
+
+
+/* ラインカット */
+
+hr {
+  border: none;
+}
+
+/* 背景 */
+
+body {
+  background: linear-gradient(-200deg, #E9E1DF 0%, #D8D0CD 56%, #BD9886 100%);
+}
+
+
+/* タイトルボックス */
+
+title1 {
+  font-family: 'karakaze';
+  font-size: 25px;
+  color: #474a4d;
+  position: relative;
+  padding: 0.25em 1em;
+  margin: 0 auto;
+  border-top: solid 2px #4DD7E3;
+  border-bottom: solid 2px #B9ADB9;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+
+title1:before, title1:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+}
+
+title1:before {
+  left: 7px;
+  border-left: solid 2px #4DD7E3;
+}
+
+title1:after {
+  right: 7px;
+  border-right: solid 2px #B9ADB9;
+}
+
+/* なんでも枠 */
+
+.box0 {
+  padding: 15px; /* 内側余白 */
+  margin: 10px 15px;
+  background: rgba(255, 254, 253, 0.5);
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.box0:before {
+  border-top:5px solid #2A4B71;
+  border-left:5px solid #2A4B71;
+  border-top-left-radius: 10px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.box0:after {
+  border-bottom:5px solid #2A4B71;
+  border-right:5px solid #2A4B71;
+  border-bottom-right-radius: 10px;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+/* 本文枠 */
+
+.box1 {
+  padding: 10px;
+  margin: 10px;
+  color: #000;
+  background: rgba(243, 243, 243, 0.6);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  position: relative;
+}
+
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.box2 {
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  position: relative;
+}
+
+.box2 p {
+  color: #fff;
+  margin: 0; 
+  padding: 0;
+}
+
+
+/* 質問ボックス */
+
+.Q_box{
+	margin: 1.5em;
+	padding: 2em;/*内側余白*/
+	position: relative;
+}
+
+.Q_box:before{
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid #fffffc;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.Q_box:after{
+	border-left: 30px solid transparent;
+	border-bottom: 30px solid #2e2930;
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+/* 各ツール */
+
+/* ぼかし */
+
+bks {
+  color: transparent;
+  text-shadow: 0px 0px 5px #000;
+}
+
+bks2 {
+  color: transparent;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+/* 打ち消し */ 
+
+n {
+  font-family: '851zatsu';
+  text-decoration: line-through;
+}
+
+n2 {
+  font-family: '851zatsu';
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* マーカー */ 
+
+id {
+  color: #000;
+  background-color: rgba(77, 214, 227, 0.75);
+}
+
+kg {
+  color: #000;
+  background-color: rgba(185, 173, 185, 0.75);
+}
+
+ng {
+  color: #fff;
+  background-color: rgba(98, 93, 161, 0.75);
+}
+
+ym {
+  color: #fff;
+  background-color: rgba(172, 50, 74, 0.75);
+}
+
+ne {
+  color: #000;
+  background-color: rgba(171, 211, 216, 0.75);
+}
+
+zh {
+  color: #000;
+  background-color: rgba(172, 167, 187, 0.75);
+}
+
+mc {
+  color: #fff;
+  background-color: rgba(165, 144, 175, 0.75);
+}
+
+fs {
+  color: #000;
+  background-color: rgba(255, 203, 91, 0.75);
+}
+
+cgs{
+  color: #fff;
+  background-color: rgba(58, 143, 183, 0.75);
+}
+
+sng{
+  color: #fff;
+  background-color: rgba(239, 131, 104, 0.75);
+}
+
+/* なうぷれバナー本体 */
+
+NP { 
+  display: block; 
+  height: 25px; 
+  width: 40%; 
+  background-color: none; 
+  margin: -5px 0 10px 50px; 
+  overflow: hidden; 
+  position: absolute; 
+  right: 12px;
+}
+
+NP2 {
+  color: #fff;
+  display: block;
+  height: 25px;
+  width: 40%;
+  background-color: none;
+  margin: -5px 0 10px 50px;
+  overflow: hidden;
+  position: absolute;
+  right: 12px;
+}
+
+/* バナー内コンテンツ */
+
+NP_c {
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  line-height: 25px;
+  padding-left: 100%;
+  white-space: nowrap;
+  animation: animate-banner 6.5s linear infinite;
+}
+
+NP2_c {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  line-height: 25px;
+  padding-left: 100%;
+  white-space: nowrap;
+  animation: animate-banner 6.5s linear infinite;
+}
+
+/* バナー内の要素をすべて選択 */
+
+NP_c > * {
+  display: inline-block;
+}
+
+NP2_c > * {
+  display: inline-block;
+}
+
+/* 横にスクロールさせるアニメーション */
+
+@keyframes animate-banner {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* 折り畳み */
+
+details.memo1 {
+    display: block;/* これでコンテンツを１つの塊にする */
+    font-family: '851zatsu';
+    color: #000a0b;
+}
+
+details.memo1[open] {
+    display: block;/* これでコンテンツを１つの塊にする */
+    background-color: none;
+    color: #000a0b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+details.memo1[open] summary::before{
+    font-size: 15px;
+    font-family: 'Byom';
+    content: 'K';/* 開いているときに表示される */
+    color: #000b00;
+}
+
+summary.memo1 {
+    color: #000a0b;
+    display: block;/* これでコンテンツを１つの塊にする */
+    outline: none;/* これでアンダーラインを非表示にする */
+}
+
+summary.memo1:before {
+    font-size: 15px;
+    font-family: 'Byom';
+    content: 'J';/* 閉じている時に表示される */
+    color: #000a0b;
+}
+
+summary.memo1::-webkit-details-marker {
+    display: none;/* これを書くと▼が透明になります */
+}
+
+
+details.letter1 {
+    display: block;/* これでコンテンツを１つの塊にする */
+    font-family: '851zatsu';
+    color: #000a0b;
+}
+
+details.letter1[open] {
+    display: block;/* これでコンテンツを１つの塊にする */
+    background-color: none;
+    color: #000a0b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+details.letter1[open] summary::before{
+    font-size: 30px;
+    font-family: 'letter';
+    content: 'V';/* 開いているときに表示される */
+    color: #000a0b;
+}
+
+summary.letter1 {
+    color: #000a0b;
+    display: block;/* これでコンテンツを１つの塊にする */
+    outline: none;/* これでアンダーラインを非表示にする */
+}
+
+summary.letter1:before {
+    font-size: 30px;
+    font-family: 'letter';
+    content: 'i';/* 閉じている時に表示される */
+    color: #000a0b;
+}
+
+summary.letter1::-webkit-details-marker {
+    display: none;/* これを書くと▼が透明になります */
+}
+
+
+details.memo2 {
+    display: block;/* これでコンテンツを１つの塊にする */
+    font-family: '851zatsu';
+    color: #fffffc;
+}
+
+details.memo2[open] {
+    display: block;/* これでコンテンツを１つの塊にする */
+    background-color: none;
+    color: #fffffc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+details.memo2[open] summary::before{
+    font-size: 15px;
+    font-family: 'Byom';
+    content: 'K';/* 開いているときに表示される */
+    color: #fffffc;
+}
+
+summary.memo2 {
+    color: #fffffc;
+    display: block;/* これでコンテンツを１つの塊にする */
+    outline: none;/* これでアンダーラインを非表示にする */
+}
+
+summary.memo2:before {
+    font-size: 15px;
+    font-family: 'Byom';
+    content: 'J';/* 閉じている時に表示される */
+    color: #fffffc;
+}
+
+summary.memo2::-webkit-details-marker {
+    display: none;/* これを書くと▼が透明になります */
+}
+
+
+details.letter2 {
+    display: block;/* これでコンテンツを１つの塊にする */
+    font-family: '851zatsu';
+    color: #fffffc;
+}
+
+details.letter2 [open] {
+    display: block;/* これでコンテンツを１つの塊にする */
+    background-color: none;
+    color: #fffffc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+details.letter2[open] summary::before{
+    font-size: 30px;
+    font-family: 'letter';
+    content: 'V';/* 開いているときに表示される */
+    color: #fffffc;
+}
+
+summary.letter2 {
+    color: #fffffc;
+    display: block;/* これでコンテンツを１つの塊にする */
+    outline: none;/* これでアンダーラインを非表示にする */
+}
+
+summary.letter2:before {
+    font-size: 30px;
+    font-family: 'letter';
+    content: 'i';/* 閉じている時に表示される */
+    color: #fffffc;
+}
+
+summary.letter2::-webkit-details-marker {
+    display: none;/* これを書くと▼が透明になります */
+}
+
+/* 切り抜き本文テーブル */
+
+.talk {
+    font-family: '851zatsu';
+    font-size: 12px;
+    width: 80%;
+    height: 125px;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px; 
+    background-color: none;
+    overflow: auto;
+}
+
+.talk p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* フキダシ（左） */
+
+Kid_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #4DD7E3; 
+    margin: 3px; 
+    padding: 7px;  
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Kgm_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #B9ADB9; 
+    margin: 3px; 
+    padding: 7px;  
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Ngo_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #ffffff;
+    position: relative; 
+    background: #625DA1; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Ymoi_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #ffffff;
+    position: relative; 
+    background: #AC324B; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Fsm_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #FFCB5B; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Knmc_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #A590AF; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Kne_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #ABD3D8; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+Kzh_L { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #ACA7BB; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 10px 0px; 
+    margin-right: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: left; 
+} 
+
+/* フキダシ（右） */
+
+Kid_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #4DD7E3; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Kgm_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #B9ADB9; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Ngo_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #ffffff;
+    position: relative; 
+    background: #625DA1; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Ymoi_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #ffffff;
+    position: relative; 
+    background: #AC324B; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Fsm_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #FFCB5B; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Knmc_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #A590AF; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Kne_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #ABD3D8; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+Kzh_R { 
+    font-family: '851zatsu';
+    font-size: 11px;
+    color: #000000;
+    position: relative; 
+    background: #ACA7BB; 
+    margin: 3px; 
+    padding: 7px; 
+    border-radius: 10px 10px 0px 10px; 
+    margin-left: 20%; 
+    clear: both; 
+    max-width: 200px; 
+    float: right; 
+}
+
+/*タイムライン*/
+
+.TL {
+  font-family: 'melon';
+  font-size: 12px;
+  color: #000;
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: none;
+  overflow: auto;
+  position: relative;
+}
+
+.TL p {
+  margin: 0; 
+  padding: 0;
+  font-size: 15px;
+}
+
+.ul{
+  padding-top: 3px;
+  padding-left: 8px;
+  border-bottom: 1px solid #000;
+}
+
+span {
+  font-family: 'Roboto';
+  color: #000;
+  font-size: 12px;
+}
+
+.item {
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* 恋人用アイコン */
+
+.id1 {
+  width: 30px;
+  height: 30px;
+  background: #4DD7E3;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.id1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+.kg1 {
+  width: 30px;
+  height: 30px;
+  background: #B9ADB9;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.kg1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+.ng1 {
+  width: 30px;
+  height: 30px;
+  background: #625DA1;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.ng1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+.zh1 {
+  width: 30px;
+  height: 30px;
+  background: #ACA7BB;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.zh1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+.mc1 {
+  width: 30px;
+  height: 30px;
+  background: #A590AF;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.mc1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+.sng1 {
+  width: 30px;
+  height: 30px;
+  background: #EF8468;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.sng1::before {
+  font-family: 'TLicon';
+  content: 'H';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  right: 20%;
+  bottom: 4%;
+}
+
+/* 自分用アイコン */
+
+.id2 {
+  width: 30px;
+  height: 30px;
+  background: #4DD7E3;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.id2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.kg2 {
+  width: 30px;
+  height: 30px;
+  background: #B9ADB9;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.kg2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.ym2 {
+  width: 30px;
+  height: 30px;
+  background: #AC324B;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.ym2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.ne2 {
+  width: 30px;
+  height: 30px;
+  background: #ABD3D8;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.ne2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.gk2 {
+  width: 30px;
+  height: 30px;
+  background: #FFCB5B;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.gk2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.cg2 {
+  width: 30px;
+  height: 30px;
+  background: #3A8FB7;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.cg2::before {
+  font-family: 'TLicon';
+  content: 'E';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+
+
+/* 本文見出し（過去記事用） */
+
+h0 {
+   font-family: 'melon';
+   color: #e8ecef;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h0:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(255, 255, 255), transparent);
+   background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+}
+
+h_1 {
+   font-family: 'melon';
+   color: #ffffff;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h_1:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(255, 255, 255), transparent);
+   background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+}
+
+h1 {
+   font-family: 'melon';
+   color: #e8ecef;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h1:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(77, 215, 227), transparent);
+   background: linear-gradient(to right, rgb(77, 215, 227), transparent);
+}
+
+
+h2 {
+   font-family: 'melon';
+   color: #e8ecef;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h2:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(98, 93, 161), transparent);
+   background: linear-gradient(to right, rgb(98, 93, 161), transparent);
+}
+
+h3 {
+   font-family: 'melon';
+   color: #7b7c7d;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h3:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(185, 173, 185), transparent);
+   background: linear-gradient(to right, rgb(185, 173, 185), transparent);
+}
+
+h4 {
+   font-family: 'melon';
+   color: #7b7c7d;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h4:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(77, 215, 227), transparent);
+   background: linear-gradient(to right, rgb(77, 215, 227), transparent);
+}
+
+h5 {
+   font-family: 'melon';
+   color: #e8ecef;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h5:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(185, 173, 185), transparent);
+   background: linear-gradient(to right, rgb(185, 173, 185), transparent);
+}
+
+h6 {
+   font-family: 'melon';
+   color: #7b7c7d;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h6:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(172, 50, 75), transparent);
+   background: linear-gradient(to right, rgb(172, 50, 75), transparent);
+}
+
+h7 {
+   font-family: 'melon';
+   color: #fff;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h7:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(165, 144, 175), transparent);
+   background: linear-gradient(to right, rgb(165, 144, 175), transparent);
+}
+
+h8 {
+   font-family: 'melon';
+   color: #7b7c7d;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h8:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(255, 203, 91), transparent);
+   background: linear-gradient(to right, rgb(255, 203, 91), transparent);
+}
+
+h9 {
+   font-family: 'melon';
+   color: #e8ecef;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h9:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(172, 167, 187), transparent);
+   background: linear-gradient(to right, rgb(172, 167, 187), transparent);
+}
+
+h10 {
+   font-family: 'melon';
+   color: #7b7c7d;
+   position: relative;
+   padding: 0.25em 0;
+   font-size: 16px;
+}
+
+h10:after {
+   content: "";
+   display: block;
+   height: 4px;
+   background: -webkit-linear-gradient(to right, rgb(171, 211, 216), transparent);
+   background: linear-gradient(to right, rgb(171, 211, 216), transparent);
+}
+
+/* テキストエリア指定 */
+
+textarea {
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    font-family: '851zatsu';
+    border-radius: 7px 7px 7px 7px; 
+    border-solid: 1px #ccc;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*スレ削除*/
+
+a[href*="/dt"] {
+  font-size: 0;
+}
+a[href*="/dt"]::before {
+  font-family: 'Byom' ;
+  content: "/";
+  font-size: 12.5px;
+  padding: 1px;
+}
+
+/* 削除 */
+
+a[href*="/dm?"] {
+  font-size: 0;
+}
+a[href*="/dm?"]::before {
+  font-family: 'Byom' ;
+  content: "U";
+  font-size: 12.5px;
+  padding: 1px;
+}
+
+/* 編集 */
+
+a[href*="/um?"] {
+  font-size: 0;
+}
+a[href*="/um?"]::before {
+  font-family: 'Byom' ;
+  content: "E";
+  font-size: 12.5px;
+  padding: 1px;
+}
+
+/* コピー */
+
+a[href*="/cp?"] {
+  font-size: 0;
+}
+a[href*="/cp?"]::before {
+  font-family: 'Byom' ;
+  content: "F";
+  font-size: 12.5px;
+  padding: 1px;
+}
